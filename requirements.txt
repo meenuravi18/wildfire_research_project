@@ -1,0 +1,14 @@
+torch
+pandas
+numpy
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-huggingface
+transformers
+huggingface-hub
+weaviate-client
+datasets
+tqdm
+requests
+scikit-learn
+PyMuPDF
