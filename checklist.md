@@ -1,4 +1,17 @@
 ## CIKM-Readiness Checklist
+The most interesting part of your paper will likely be the ablation study. CIKM reviewers will want to see the Pareto frontier between Precision (Correct Jurisdiction) and Recall (Information Coverage).
+
+Does the "Full Geo-First" method sacrifice too much information to stay safe?
+
+Visualizing this tradeoff 
+
+Section,Focus
+Introduction,"Define the ""Jurisdictional Hallucination"" problem in RAG."
+Problem Formalization,Formally define the Geographic Knowledge Graph and the Hierarchy Distance metric.
+Proposed Method,Detail the Geo-First ranking and the Warn/Abstain logic.
+Benchmark,"Describe your wildfire dataset (the ""Wildfire-GeoBench"")."
+Experiments,The 5-way method comparison + LLM-as-a-judge metrics.
+Discussion,"The reliability-coverage tradeoff and ""Good-Decision Rate."""
 
 ### 1. Reliability Framework
 
